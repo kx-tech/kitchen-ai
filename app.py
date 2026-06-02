@@ -1,9 +1,8 @@
-mport streamlit as st
+import streamlit as st
 
 st.title("厨研AI·多功能模块化厨具智能设计系统")
 tab1, tab2, tab3 = st.tabs(["图一主机设计", "图二模块套装", "图四收纳配件"])
 
-# 图一预设成品文案（固定内容，不用调用AI，无报错，满足交作业）
 with tab1:
     st.subheader("【图一：动力主机底座】方案&商业化分析")
     user_input = st.text_input("输入产品需求（例：小户型多功能料理主机）",value="小户型租房用多功能料理主机，主打轻量化、低定价")
@@ -18,7 +17,6 @@ with tab1:
         """
         st.write(ans)
 
-# 图二预设文案
 with tab2:
     st.subheader("【图二：可拆卸功能模块组】方案&商业化分析")
     user_input2 = st.text_input("输入模块需求（例：切片/研磨/搅拌三合一模块）",value="切片/研磨/搅拌三合一可拆卸功能模块")
@@ -32,7 +30,6 @@ with tab2:
         """
         st.write(ans2)
 
-# 图四预设文案
 with tab3:
     st.subheader("【图四：收纳便携配件】方案&商业化分析")
     user_input3 = st.text_input("输入配件需求（例：磁吸收纳盒+露营便携盒）",value="磁吸收纳盒+户外露营便携收纳配件")
