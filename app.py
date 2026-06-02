@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-DEEPSEEK_API_KEY = "sk-0da02d98821c47d49b90f0dcd7c58c05"
+DEEPSEEK_API_KEY = "sk-1963667372f949f2a3e756f2780cf0eb"
 
 def deepseek_chat(prompt):
     headers = {
